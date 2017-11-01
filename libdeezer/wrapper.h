@@ -1,0 +1,7 @@
+// #include "deezer-api.h"
+#include "deezer-object.h"
+#include "deezer-connect.h"
+// #include "deezer-offline-sync.h"
+// #include "deezer-offline.h"
+#include "deezer-track.h"
+#include "deezer-player.h"

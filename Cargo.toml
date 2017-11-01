@@ -1,0 +1,14 @@
+[package]
+name = "deezer"
+version = "0.1.0"
+authors = ["Anton Shramko <antonshramko@yandex.ru>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "*"
+
+[profile.dev]
+rpath = true
